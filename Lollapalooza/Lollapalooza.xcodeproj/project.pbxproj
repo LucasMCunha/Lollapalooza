@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE80A1DC29E4A0A800FA28B5 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80A1DB29E4A0A800FA28B5 /* Artist.swift */; };
+		CE80A1DE29E4A0C100FA28B5 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80A1DD29E4A0C100FA28B5 /* Music.swift */; };
 		CE8E39F229E4979400318D6B /* LollapaloozaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E39F129E4979400318D6B /* LollapaloozaApp.swift */; };
 		CE8E39F429E4979400318D6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E39F329E4979400318D6B /* ContentView.swift */; };
 		CE8E39F629E4979500318D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E39F529E4979500318D6B /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE80A1DB29E4A0A800FA28B5 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		CE80A1DD29E4A0C100FA28B5 /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		CE8E39EE29E4979400318D6B /* Lollapalooza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lollapalooza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8E39F129E4979400318D6B /* LollapaloozaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LollapaloozaApp.swift; sourceTree = "<group>"; };
 		CE8E39F329E4979400318D6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 		CE8E39F029E4979400318D6B /* Lollapalooza */ = {
 			isa = PBXGroup;
 			children = (
+				CE80A1DD29E4A0C100FA28B5 /* Music.swift */,
+				CE80A1DB29E4A0A800FA28B5 /* Artist.swift */,
 				CE8E39F129E4979400318D6B /* LollapaloozaApp.swift */,
 				CE8E39F329E4979400318D6B /* ContentView.swift */,
 				CE8E39F529E4979500318D6B /* Assets.xcassets */,
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE80A1DC29E4A0A800FA28B5 /* Artist.swift in Sources */,
 				CE8E39F429E4979400318D6B /* ContentView.swift in Sources */,
 				CE8E39F229E4979400318D6B /* LollapaloozaApp.swift in Sources */,
+				CE80A1DE29E4A0C100FA28B5 /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
