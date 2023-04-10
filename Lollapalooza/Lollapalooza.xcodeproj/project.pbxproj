@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8E39F229E4979400318D6B /* LollapaloozaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E39F129E4979400318D6B /* LollapaloozaApp.swift */; };
+		CE8E39F429E4979400318D6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E39F329E4979400318D6B /* ContentView.swift */; };
+		CE8E39F629E4979500318D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E39F529E4979500318D6B /* Assets.xcassets */; };
+		CE8E39F929E4979500318D6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E39F829E4979500318D6B /* Preview Assets.xcassets */; };
+		CE8E3A0329E4979500318D6B /* LollapaloozaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E3A0229E4979500318D6B /* LollapaloozaTests.swift */; };
+		CE8E3A0D29E4979500318D6B /* LollapaloozaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E3A0C29E4979500318D6B /* LollapaloozaUITests.swift */; };
+		CE8E3A0F29E4979500318D6B /* LollapaloozaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E3A0E29E4979500318D6B /* LollapaloozaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8E39FF29E4979500318D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8E39E629E4979400318D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8E39ED29E4979400318D6B;
+			remoteInfo = Lollapalooza;
+		};
+		CE8E3A0929E4979500318D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8E39E629E4979400318D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8E39ED29E4979400318D6B;
+			remoteInfo = Lollapalooza;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE8E39EE29E4979400318D6B /* Lollapalooza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lollapalooza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E39F129E4979400318D6B /* LollapaloozaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LollapaloozaApp.swift; sourceTree = "<group>"; };
+		CE8E39F329E4979400318D6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE8E39F529E4979500318D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8E39F829E4979500318D6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8E39FE29E4979500318D6B /* LollapaloozaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LollapaloozaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E3A0229E4979500318D6B /* LollapaloozaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LollapaloozaTests.swift; sourceTree = "<group>"; };
+		CE8E3A0829E4979500318D6B /* LollapaloozaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LollapaloozaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E3A0C29E4979500318D6B /* LollapaloozaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LollapaloozaUITests.swift; sourceTree = "<group>"; };
+		CE8E3A0E29E4979500318D6B /* LollapaloozaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LollapaloozaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8E39EB29E4979400318D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E39FB29E4979500318D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E3A0529E4979500318D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8E39E529E4979400318D6B = {
+			isa = PBXGroup;
+			children = (
+				CE8E39F029E4979400318D6B /* Lollapalooza */,
+				CE8E3A0129E4979500318D6B /* LollapaloozaTests */,
+				CE8E3A0B29E4979500318D6B /* LollapaloozaUITests */,
+				CE8E39EF29E4979400318D6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8E39EF29E4979400318D6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E39EE29E4979400318D6B /* Lollapalooza.app */,
+				CE8E39FE29E4979500318D6B /* LollapaloozaTests.xctest */,
+				CE8E3A0829E4979500318D6B /* LollapaloozaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8E39F029E4979400318D6B /* Lollapalooza */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E39F129E4979400318D6B /* LollapaloozaApp.swift */,
+				CE8E39F329E4979400318D6B /* ContentView.swift */,
+				CE8E39F529E4979500318D6B /* Assets.xcassets */,
+				CE8E39F729E4979500318D6B /* Preview Content */,
+			);
+			path = Lollapalooza;
+			sourceTree = "<group>";
+		};
+		CE8E39F729E4979500318D6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E39F829E4979500318D6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE8E3A0129E4979500318D6B /* LollapaloozaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E3A0229E4979500318D6B /* LollapaloozaTests.swift */,
+			);
+			path = LollapaloozaTests;
+			sourceTree = "<group>";
+		};
+		CE8E3A0B29E4979500318D6B /* LollapaloozaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E3A0C29E4979500318D6B /* LollapaloozaUITests.swift */,
+				CE8E3A0E29E4979500318D6B /* LollapaloozaUITestsLaunchTests.swift */,
+			);
+			path = LollapaloozaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8E39ED29E4979400318D6B /* Lollapalooza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E3A1229E4979500318D6B /* Build configuration list for PBXNativeTarget "Lollapalooza" */;
+			buildPhases = (
+				CE8E39EA29E4979400318D6B /* Sources */,
+				CE8E39EB29E4979400318D6B /* Frameworks */,
+				CE8E39EC29E4979400318D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lollapalooza;
+			productName = Lollapalooza;
+			productReference = CE8E39EE29E4979400318D6B /* Lollapalooza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8E39FD29E4979500318D6B /* LollapaloozaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E3A1529E4979500318D6B /* Build configuration list for PBXNativeTarget "LollapaloozaTests" */;
+			buildPhases = (
+				CE8E39FA29E4979500318D6B /* Sources */,
+				CE8E39FB29E4979500318D6B /* Frameworks */,
+				CE8E39FC29E4979500318D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8E3A0029E4979500318D6B /* PBXTargetDependency */,
+			);
+			name = LollapaloozaTests;
+			productName = LollapaloozaTests;
+			productReference = CE8E39FE29E4979500318D6B /* LollapaloozaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE8E3A0729E4979500318D6B /* LollapaloozaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E3A1829E4979500318D6B /* Build configuration list for PBXNativeTarget "LollapaloozaUITests" */;
+			buildPhases = (
+				CE8E3A0429E4979500318D6B /* Sources */,
+				CE8E3A0529E4979500318D6B /* Frameworks */,
+				CE8E3A0629E4979500318D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8E3A0A29E4979500318D6B /* PBXTargetDependency */,
+			);
+			name = LollapaloozaUITests;
+			productName = LollapaloozaUITests;
+			productReference = CE8E3A0829E4979500318D6B /* LollapaloozaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8E39E629E4979400318D6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE8E39ED29E4979400318D6B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CE8E39FD29E4979500318D6B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CE8E39ED29E4979400318D6B;
+					};
+					CE8E3A0729E4979500318D6B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CE8E39ED29E4979400318D6B;
+					};
+				};
+			};
+			buildConfigurationList = CE8E39E929E4979400318D6B /* Build configuration list for PBXProject "Lollapalooza" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8E39E529E4979400318D6B;
+			productRefGroup = CE8E39EF29E4979400318D6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8E39ED29E4979400318D6B /* Lollapalooza */,
+				CE8E39FD29E4979500318D6B /* LollapaloozaTests */,
+				CE8E3A0729E4979500318D6B /* LollapaloozaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8E39EC29E4979400318D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E39F929E4979500318D6B /* Preview Assets.xcassets in Resources */,
+				CE8E39F629E4979500318D6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E39FC29E4979500318D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E3A0629E4979500318D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8E39EA29E4979400318D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E39F429E4979400318D6B /* ContentView.swift in Sources */,
+				CE8E39F229E4979400318D6B /* LollapaloozaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E39FA29E4979500318D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E3A0329E4979500318D6B /* LollapaloozaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E3A0429E4979500318D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E3A0F29E4979500318D6B /* LollapaloozaUITestsLaunchTests.swift in Sources */,
+				CE8E3A0D29E4979500318D6B /* LollapaloozaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8E3A0029E4979500318D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8E39ED29E4979400318D6B /* Lollapalooza */;
+			targetProxy = CE8E39FF29E4979500318D6B /* PBXContainerItemProxy */;
+		};
+		CE8E3A0A29E4979500318D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8E39ED29E4979400318D6B /* Lollapalooza */;
+			targetProxy = CE8E3A0929E4979500318D6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE8E3A1029E4979500318D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8E3A1129E4979500318D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8E3A1329E4979500318D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lollapalooza/Preview Content\"";
+				DEVELOPMENT_TEAM = D95QWWTUDS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Lollapalooza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8E3A1429E4979500318D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lollapalooza/Preview Content\"";
+				DEVELOPMENT_TEAM = D95QWWTUDS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Lollapalooza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE8E3A1629E4979500318D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D95QWWTUDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.LollapaloozaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lollapalooza.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lollapalooza";
+			};
+			name = Debug;
+		};
+		CE8E3A1729E4979500318D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D95QWWTUDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.LollapaloozaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lollapalooza.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lollapalooza";
+			};
+			name = Release;
+		};
+		CE8E3A1929E4979500318D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D95QWWTUDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.LollapaloozaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lollapalooza;
+			};
+			name = Debug;
+		};
+		CE8E3A1A29E4979500318D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D95QWWTUDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.LollapaloozaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lollapalooza;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8E39E929E4979400318D6B /* Build configuration list for PBXProject "Lollapalooza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E3A1029E4979500318D6B /* Debug */,
+				CE8E3A1129E4979500318D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8E3A1229E4979500318D6B /* Build configuration list for PBXNativeTarget "Lollapalooza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E3A1329E4979500318D6B /* Debug */,
+				CE8E3A1429E4979500318D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8E3A1529E4979500318D6B /* Build configuration list for PBXNativeTarget "LollapaloozaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E3A1629E4979500318D6B /* Debug */,
+				CE8E3A1729E4979500318D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8E3A1829E4979500318D6B /* Build configuration list for PBXNativeTarget "LollapaloozaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E3A1929E4979500318D6B /* Debug */,
+				CE8E3A1A29E4979500318D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8E39E629E4979400318D6B /* Project object */;
+}
