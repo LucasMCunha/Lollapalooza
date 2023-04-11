@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A797668829E5F7F600160BE2 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797668729E5F7F600160BE2 /* ScheduleView.swift */; };
 		CC6675F729E5CEAB009E1E7E /* LoneArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6675F629E5CEAB009E1E7E /* LoneArtist.swift */; };
 		CC6675F929E5D1B5009E1E7E /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6675F829E5D1B5009E1E7E /* MainScreen.swift */; };
 		CE80A1DC29E4A0A800FA28B5 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80A1DB29E4A0A800FA28B5 /* Artist.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A797668729E5F7F600160BE2 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		CC6675F629E5CEAB009E1E7E /* LoneArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoneArtist.swift; sourceTree = "<group>"; };
 		CC6675F829E5D1B5009E1E7E /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		CE80A1DB29E4A0A800FA28B5 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				CE80A1DD29E4A0C100FA28B5 /* Music.swift */,
+				A797668729E5F7F600160BE2 /* ScheduleView.swift */,
 				CE80A1DB29E4A0A800FA28B5 /* Artist.swift */,
 				CE8E39F129E4979400318D6B /* LollapaloozaApp.swift */,
 				CE8E39F329E4979400318D6B /* ContentView.swift */,
@@ -272,6 +275,7 @@
 				CC6675F929E5D1B5009E1E7E /* MainScreen.swift in Sources */,
 				CE80A1DC29E4A0A800FA28B5 /* Artist.swift in Sources */,
 				CE8E39F429E4979400318D6B /* ContentView.swift in Sources */,
+				A797668829E5F7F600160BE2 /* ScheduleView.swift in Sources */,
 				CC6675F729E5CEAB009E1E7E /* LoneArtist.swift in Sources */,
 				CE8E39F229E4979400318D6B /* LollapaloozaApp.swift in Sources */,
 				CE80A1DE29E4A0C100FA28B5 /* Music.swift in Sources */,
@@ -433,7 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Lollapalooza/Preview Content\"";
-				DEVELOPMENT_TEAM = D95QWWTUDS;
+				DEVELOPMENT_TEAM = DFJUFQ6A3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -441,12 +445,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Lollapalooza;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpdias.Lollapalooza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Lollapalooza/Preview Content\"";
-				DEVELOPMENT_TEAM = D95QWWTUDS;
+				DEVELOPMENT_TEAM = DFJUFQ6A3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -470,12 +475,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Lollapalooza;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpdias.Lollapalooza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
