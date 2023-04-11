@@ -37,22 +37,23 @@ struct TourScreen: View {
             ZStack{
                 Image(artist.descriptionImage)
                     .resizable()
-                    .frame(width: 500, height: 300, alignment: .center)
+                    .frame(width: 500, height: 300,
+                           alignment: .center)
                     .cornerRadius(100)
-                    .offset(x: 0,y:-60)
+                    .offset(x: -60, y:0)
                 
                 
                 if (artist.favorite == true){
                     Image(systemName: "heart.fill")
                         .resizable()
-                        .offset(x: 150,y:-160)
+                        .offset(x: 90,y:-160)
                         .foregroundColor(.pink)
                         .frame(width: 30, height: 30, alignment: .center)
                 }
                 else{
                     Image(systemName: "heart")
                         .resizable()
-                        .offset(x: 150,y:-160)
+                        .offset(x: 90,y:-100)
                         .foregroundColor(.pink)
                         .frame(width: 30, height: 30, alignment: .center)
                 }
@@ -60,23 +61,20 @@ struct TourScreen: View {
             Text (artist.tourName)
                 .bold()
                 .font(.title)
-                .offset(x: 80,y:-60)
             Text (artist.tour)
-                .offset(x: 60,y:-60)
             Text("SetList")
-                .offset(x: 60,y:-50)
                 .font(.title3)
                 .bold()
             Divider()
                 .overlay(Color.black)
-                .offset(x: 55,y:-60)
+                .offset(x: -5,y:0)
             ScrollView{
                 ForEach(artist.musics, id:\.id) { m in
                     MusicImages(Music: m,artist: artist)
                 }
             }
-            .offset(x: 0,y:-60)
         }
+        .offset(x: 60,y:-60)
     }
 }
 
