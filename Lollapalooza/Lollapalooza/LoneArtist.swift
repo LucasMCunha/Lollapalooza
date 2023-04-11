@@ -12,12 +12,15 @@ struct LoneArtist: View {
     var body: some View {
         VStack{
             Image(artist.ProfileImage)
+                .resizable()
+                .frame(width: 100, height: 100)
                 .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                 .overlay {
                     Circle().stroke(.white, lineWidth: 4)
                 }
             Text(artist.name)
                 .bold()
+                .frame(maxWidth: 100)
             
         }
     }
