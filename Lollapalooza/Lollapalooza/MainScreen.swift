@@ -47,7 +47,8 @@ struct MainScreen: View {
                 }
             }
             Divider()
-            SearchBar()
+            var firstscreen: Int = 1
+            SearchBar(choice: firstscreen)
         }
     }
 }
