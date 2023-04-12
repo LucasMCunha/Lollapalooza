@@ -62,71 +62,77 @@ struct ScheduleView: View {
     @State private var showFavorites = false
     @State private var showAll = true
     var body: some View {
-        ScrollView(showsIndicators: false){
-            HStack {
-                Toggle("My Schedule", isOn: $showFavorites)
-                Toggle("Lolla's Schedule", isOn: $showAll)
-            }
-            .toggleStyle(.button)
-            .tint(.black)
-            
-            
-            Divider()
-            VStack{
-                ForEach(days) { singleday in
-                    Text(singleday.name + ", March " + singleday.date + ".")
-                        .frame(width: 330, height: 20, alignment: .bottomLeading)
-                        .textCase(.uppercase)
-                        .font(.headline)
-                    Divider()
-                    ForEach(stages) { stage in
-                        Text(stage.name)
-                            .frame(width: 330, height: 20,alignment: .bottomLeading)
+        NavigationView(){
+            ScrollView(showsIndicators: false){
+                HStack {
+                    Toggle("My Schedule", isOn: $showFavorites)
+                    Toggle("Lolla's Schedule", isOn: $showAll)
+                }
+                .toggleStyle(.button)
+                .tint(.black)
+                
+                
+                Divider()
+                VStack{
+                    ForEach(days) { singleday in
+                        Text(singleday.name + ", March " + singleday.date + ".")
+                            .frame(width: 330, height: 20, alignment: .bottomLeading)
+                            .textCase(.uppercase)
                             .font(.headline)
-                            .bold()
-                            .foregroundColor(stage.color)
-                            .padding(.top, 10)
-                        ForEach(0..<stage.agenda[singleday.index].count) { index in
-                            if((showFavorites && stage.agenda[singleday.index][index].favorite == true) || !showFavorites){
-                                ZStack{
-                                    Rectangle()
-                                        .frame(width: 330, height: 100)
-                                        .foregroundColor(stage.color)
-                                        .cornerRadius(10)
-                                    Image(stage.agenda[singleday.index][index].descriptionImage)
-                                        .resizable()
-                                        .aspectRatio(contentMode: .fill)
-                                        .frame(width: 320, height: 100)
-                                        .cornerRadius(10, corners: [.bottomRight, .topRight])
-                                        .contrast(0.8)
-                                        .colorMultiply(.gray)
-                                        .offset(x:+5)
-                                    VStack{
-                                        HStack{
-                                            Text(stage.agenda[singleday.index][index].name)
-                                                .font(.system(size: 16))
-                                                .font(.headline)
-                                                .bold()
-                                            Spacer()
+                        Divider()
+                        ForEach(stages) { stage in
+                            Text(stage.name)
+                                .frame(width: 330, height: 20,alignment: .bottomLeading)
+                                .font(.headline)
+                                .bold()
+                                .foregroundColor(stage.color)
+                                .padding(.top, 10)
+                            ForEach(0..<stage.agenda[singleday.index].count) { index in
+                                if((showFavorites && stage.agenda[singleday.index][index].favorite == true) || !showFavorites){
+                                    NavigationLink{
+                                        ContentView()
+                                    } label:{
+                                        ZStack{
+                                            Rectangle()
+                                                .frame(width: 330, height: 100)
+                                                .foregroundColor(stage.color)
+                                                .cornerRadius(10)
+                                            Image(stage.agenda[singleday.index][index].descriptionImage)
+                                                .resizable()
+                                                .aspectRatio(contentMode: .fill)
+                                                .frame(width: 320, height: 100)
+                                                .cornerRadius(10, corners: [.bottomRight, .topRight])
+                                                .contrast(0.8)
+                                                .colorMultiply(.gray)
+                                                .offset(x:+5)
+                                            VStack{
+                                                HStack{
+                                                    Text(stage.agenda[singleday.index][index].name)
+                                                        .font(.system(size: 16))
+                                                        .font(.headline)
+                                                        .bold()
+                                                    Spacer()
+                                                }
+                                                HStack{
+                                                    Text(stage.hours[index])
+                                                        .fontWeight(.thin)
+                                                        .font(.system(size: 12))
+                                                    Spacer()
+                                                }
+                                                
+                                            }
+                                            .frame(width: 290, height: 90, alignment: .bottomLeading)
+                                            .foregroundColor(.white)
                                         }
-                                        HStack{
-                                            Text(stage.hours[index])
-                                                .fontWeight(.thin)
-                                                .font(.system(size: 12))
-                                            Spacer()
-                                        }
-                                        
                                     }
-                                    .frame(width: 290, height: 90, alignment: .bottomLeading)
-                                    .foregroundColor(.white)
                                 }
                             }
                         }
+                        Divider()
                     }
-                    Divider()
                 }
+                .frame(width: 330)
             }
-            .frame(width: 330)
         }
     }
     func buttonClick(){
