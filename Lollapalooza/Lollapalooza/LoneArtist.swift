@@ -10,19 +10,27 @@ import SwiftUI
 struct LoneArtist: View {
     var artist: Artist
     var body: some View {
-        VStack{
+        ZStack{
+            Color(.white)
             Image(artist.ProfileImage)
                 .resizable()
-                //.aspectRatio(contentMode: .fit)
+                .aspectRatio(contentMode: .fit)
                 .clipShape(Circle())
-                .frame(width: 150, height: 150)
-            Text(artist.name)
-                .bold()
-                .frame(maxWidth: 100)
-            
-        }
+                .overlay {
+                    Circle().stroke(.black, lineWidth: 3)
+                
+                }
+                .foregroundColor(.white)
+            }
+            .frame(width: 150, height: 150)
+            .cornerRadius(100)
+        Text(artist.name)
+            .bold()
+            .frame(maxWidth: 100)
+        
     }
 }
+
 
 struct LoneArtist_Previews: PreviewProvider {
     static var previews: some View {

@@ -16,6 +16,6 @@ struct Stages{
 var stages: [Stages] = [
     Stages(name: "Budweiser Stage", image: "Budweiser"),
     Stages(name: "Adidas Stage", image: "Adidas"),
-    Stages(name: "Onix Stage", image: "Onix"),
+    Stages(name: "Chevrolet Stage", image: "Onix"),
     Stages(name: "Perry's by Doritos Stage", image: "Perry")
 ]
