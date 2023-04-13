@@ -17,9 +17,9 @@ struct SearchBar: View {
             HStack{
                 VStack{
                     if choice != 1{
-                        Image(systemName: "person")
+                        Image(systemName: "house.fill")
                             .opacity(0.5)
-                        Text("For me")
+                        Text("Home")
                             .frame(width: 75)
                             .opacity(0.5)
                     }
@@ -58,22 +58,9 @@ struct SearchBar: View {
                                 .frame(width: 75)
                     }
                 }
+                
                 VStack{
                     if choice != 4{
-                        Image(systemName: "magnifyingglass")
-                            .opacity(0.5)
-                        Text("Search")
-                            .frame(width: 75)
-                            .opacity(0.5)
-                    }
-                    else{
-                        Image(systemName: "magnifyingglass")
-                        Text("Search")
-                            .frame(width: 75)
-                    }
-                }
-                VStack{
-                    if choice != 5{
                         Image(systemName: "qrcode")
                             .opacity(0.5)
                         Text("Tickets")
@@ -89,6 +76,7 @@ struct SearchBar: View {
                 }
             }
         }
+		.position(x: UIScreen.main.bounds.midX, y: UIScreen.main.bounds.maxY - 80)
     }
 }
 

@@ -14,7 +14,8 @@ struct LoneArtist: View {
             Color(.white)
             Image(artist.profileImage)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+				.frame(width: 150, height: 120)
+                //.aspectRatio(contentMode: .fit)
                 .clipShape(Circle())
                 .overlay {
                     Circle().stroke(.black, lineWidth: 3)
@@ -22,7 +23,7 @@ struct LoneArtist: View {
                 }
                 .foregroundColor(.white)
             }
-            .frame(width: 150, height: 150)
+            .frame(width: 150, height: 130)
             .cornerRadius(100)
         Text(artist.name)
             .bold()
