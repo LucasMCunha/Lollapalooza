@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "Harry2.jpg",
+      "filename" : "Perry.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Harry1.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
