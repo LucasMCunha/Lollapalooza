@@ -12,7 +12,7 @@ struct LoneArtist: View {
     var body: some View {
         ZStack{
             Color(.white)
-            Image(artist.ProfileImage)
+            Image(artist.profileImage)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .clipShape(Circle())

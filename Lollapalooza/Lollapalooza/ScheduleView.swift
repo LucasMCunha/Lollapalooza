@@ -24,7 +24,7 @@ struct RoundedCorner: Shape {
     }
 }
 
-struct Stage: Identifiable{
+struct ScheduleStage: Identifiable{
     var id = UUID()
     var name: String
     var agenda: [[Artist]]
@@ -42,20 +42,20 @@ struct Day: Identifiable {
 var artists: [Artist] = [Taylor, FlorenceTheMachine, Drake, BillieEilish, NaldoBenny, Jao, Ed, Harry]
 
 
-var budweiser = Stage(name: "Budweiser", agenda: [
+var budweiser = ScheduleStage(name: "Budweiser", agenda: [
     [Drake, BillieEilish, Harry],
     [NaldoBenny, Ed],
     [Jao, Taylor]], color: .teal)
-var chevrolet = Stage(name: "Chevrolet's", agenda: [
+var chevrolet = ScheduleStage(name: "Chevrolet's", agenda: [
     [NaldoBenny,Ed],
     [Jao, Taylor],
     [FlorenceTheMachine, BillieEilish, Harry]], color: .yellow)
-var perry = Stage(name: "Perry's", agenda:
+var perry = ScheduleStage(name: "Perry's", agenda:
                     [[FlorenceTheMachine, Jao],
                      [FlorenceTheMachine, Drake],
                      [ NaldoBenny]], color: .orange)
-var adidas = Stage(name: "Adida's", agenda: [ [Taylor],[BillieEilish],[Drake]], color: .green)
-var stages: [Stage] = [budweiser,chevrolet,perry,adidas]
+var adidas = ScheduleStage(name: "Adida's", agenda: [ [Taylor],[BillieEilish],[Drake]], color: .green)
+var scheduleStages: [ScheduleStage] = [budweiser,chevrolet,perry,adidas]
 var days = [Day(name: "Friday",index: 0, date: "25"),Day(name:"Saturday",index: 1, date:"26"),Day(name:"Sunday",index: 2,date:"27")]
 
 struct ScheduleView: View {
@@ -80,24 +80,24 @@ struct ScheduleView: View {
                             .textCase(.uppercase)
                             .font(.headline)
                         Divider()
-                        ForEach(stages) { stage in
-                            Text(stage.name)
+                        ForEach(scheduleStages) { scheduleStage in
+                            Text(scheduleStage.name)
                                 .frame(width: 330, height: 20,alignment: .bottomLeading)
                                 .font(.headline)
                                 .bold()
-                                .foregroundColor(stage.color)
+                                .foregroundColor(scheduleStage.color)
                                 .padding(.top, 10)
-                            ForEach(0..<stage.agenda[singleday.index].count) { index in
-                                if((showFavorites && stage.agenda[singleday.index][index].favorite == true) || !showFavorites){
+                            ForEach(0..<scheduleStage.agenda[singleday.index].count) { index in
+                                if((showFavorites && scheduleStage.agenda[singleday.index][index].favorite == true) || !showFavorites){
                                     NavigationLink{
                                         ContentView()
                                     } label:{
                                         ZStack{
                                             Rectangle()
                                                 .frame(width: 330, height: 100)
-                                                .foregroundColor(stage.color)
+                                                .foregroundColor(scheduleStage.color)
                                                 .cornerRadius(10)
-                                            Image(stage.agenda[singleday.index][index].descriptionImage)
+                                            Image(scheduleStage.agenda[singleday.index][index].descriptionImage)
                                                 .resizable()
                                                 .aspectRatio(contentMode: .fill)
                                                 .frame(width: 320, height: 100)
@@ -107,14 +107,14 @@ struct ScheduleView: View {
                                                 .offset(x:+5)
                                             VStack{
                                                 HStack{
-                                                    Text(stage.agenda[singleday.index][index].name)
+                                                    Text(scheduleStage.agenda[singleday.index][index].name)
                                                         .font(.system(size: 16))
                                                         .font(.headline)
                                                         .bold()
                                                     Spacer()
                                                 }
                                                 HStack{
-                                                    Text(stage.hours[index])
+                                                    Text(scheduleStage.hours[index])
                                                         .fontWeight(.thin)
                                                         .font(.system(size: 12))
                                                     Spacer()
