@@ -13,4 +13,5 @@ struct Music: Identifiable{
     var title: String
     var time: String
     var image: String
+    var number: Int
 }
