@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54D9722929E86B4E0070B6B8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D9722829E86B4E0070B6B8 /* MapView.swift */; };
+		54D9722B29E86B680070B6B8 /* MapOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D9722A29E86B680070B6B8 /* MapOnly.swift */; };
 		A797668829E5F7F600160BE2 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797668729E5F7F600160BE2 /* ScheduleView.swift */; };
 		CC6675F729E5CEAB009E1E7E /* LoneArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6675F629E5CEAB009E1E7E /* LoneArtist.swift */; };
 		CCCE766029E5E28D00EF13C4 /* Stages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE765F29E5E28D00EF13C4 /* Stages.swift */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54D9722829E86B4E0070B6B8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		54D9722A29E86B680070B6B8 /* MapOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOnly.swift; sourceTree = "<group>"; };
 		A797668729E5F7F600160BE2 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		CC6675F629E5CEAB009E1E7E /* LoneArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoneArtist.swift; sourceTree = "<group>"; };
 		CCCE765F29E5E28D00EF13C4 /* Stages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stages.swift; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 				CE8E39F329E4979400318D6B /* ContentView.swift */,
 				CC6675F629E5CEAB009E1E7E /* LoneArtist.swift */,
 				CE8E39F529E4979500318D6B /* Assets.xcassets */,
+				54D9722829E86B4E0070B6B8 /* MapView.swift */,
+				54D9722A29E86B680070B6B8 /* MapOnly.swift */,
 				CE8E39F729E4979500318D6B /* Preview Content */,
 			);
 			path = Lollapalooza;
@@ -299,7 +305,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				CCCE766929E5E9EA00EF13C4 /* SingleNews.swift in Sources */,
 				CE80A1E029E5E41300FA28B5 /* TourScreen.swift in Sources */,
 				CE80A1DC29E4A0A800FA28B5 /* Artist.swift in Sources */,
@@ -308,7 +313,9 @@
 				A797668829E5F7F600160BE2 /* ScheduleView.swift in Sources */,
 				CCCE766629E5E74700EF13C4 /* News.swift in Sources */,
 				CC6675F729E5CEAB009E1E7E /* LoneArtist.swift in Sources */,
+				54D9722B29E86B680070B6B8 /* MapOnly.swift in Sources */,
 				CE8E39F229E4979400318D6B /* LollapaloozaApp.swift in Sources */,
+				54D9722929E86B4E0070B6B8 /* MapView.swift in Sources */,
 				CCCE767129E7423700EF13C4 /* ViewAllArtists.swift in Sources */,
 				CCCE766029E5E28D00EF13C4 /* Stages.swift in Sources */,
 				CCCE766229E5E4E800EF13C4 /* SingleStage.swift in Sources */,
