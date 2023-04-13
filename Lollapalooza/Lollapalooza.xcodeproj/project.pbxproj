@@ -8,7 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		CC6675F729E5CEAB009E1E7E /* LoneArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6675F629E5CEAB009E1E7E /* LoneArtist.swift */; };
-		CC6675F929E5D1B5009E1E7E /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6675F829E5D1B5009E1E7E /* MainScreen.swift */; };
+		CCCE766029E5E28D00EF13C4 /* Stages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE765F29E5E28D00EF13C4 /* Stages.swift */; };
+		CCCE766229E5E4E800EF13C4 /* SingleStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766129E5E4E800EF13C4 /* SingleStage.swift */; };
+		CCCE766429E5E6E400EF13C4 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766329E5E6E400EF13C4 /* MainScreen.swift */; };
+		CCCE766629E5E74700EF13C4 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766529E5E74700EF13C4 /* News.swift */; };
+		CCCE766929E5E9EA00EF13C4 /* SingleNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766829E5E9EA00EF13C4 /* SingleNews.swift */; };
+		CCCE766B29E71A6A00EF13C4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766A29E71A6A00EF13C4 /* SearchBar.swift */; };
+		CCCE766D29E7255B00EF13C4 /* Fillerforlaterviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766C29E7255B00EF13C4 /* Fillerforlaterviews.swift */; };
+		CCCE766F29E73B4C00EF13C4 /* FullNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766E29E73B4C00EF13C4 /* FullNews.swift */; };
+		CCCE767129E7423700EF13C4 /* ViewAllArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE767029E7423700EF13C4 /* ViewAllArtists.swift */; };
 		CE80A1DC29E4A0A800FA28B5 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80A1DB29E4A0A800FA28B5 /* Artist.swift */; };
 		CE80A1DE29E4A0C100FA28B5 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80A1DD29E4A0C100FA28B5 /* Music.swift */; };
 		CE80A1E029E5E41300FA28B5 /* TourScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80A1DF29E5E41300FA28B5 /* TourScreen.swift */; };
@@ -40,7 +48,15 @@
 
 /* Begin PBXFileReference section */
 		CC6675F629E5CEAB009E1E7E /* LoneArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoneArtist.swift; sourceTree = "<group>"; };
-		CC6675F829E5D1B5009E1E7E /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		CCCE765F29E5E28D00EF13C4 /* Stages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stages.swift; sourceTree = "<group>"; };
+		CCCE766129E5E4E800EF13C4 /* SingleStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleStage.swift; sourceTree = "<group>"; };
+		CCCE766329E5E6E400EF13C4 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		CCCE766529E5E74700EF13C4 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		CCCE766829E5E9EA00EF13C4 /* SingleNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNews.swift; sourceTree = "<group>"; };
+		CCCE766A29E71A6A00EF13C4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		CCCE766C29E7255B00EF13C4 /* Fillerforlaterviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fillerforlaterviews.swift; sourceTree = "<group>"; };
+		CCCE766E29E73B4C00EF13C4 /* FullNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullNews.swift; sourceTree = "<group>"; };
+		CCCE767029E7423700EF13C4 /* ViewAllArtists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllArtists.swift; sourceTree = "<group>"; };
 		CE80A1DB29E4A0A800FA28B5 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		CE80A1DD29E4A0C100FA28B5 /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		CE80A1DF29E5E41300FA28B5 /* TourScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourScreen.swift; sourceTree = "<group>"; };
@@ -84,7 +100,6 @@
 		CE8E39E529E4979400318D6B = {
 			isa = PBXGroup;
 			children = (
-				CC6675F829E5D1B5009E1E7E /* MainScreen.swift */,
 				CE8E39F029E4979400318D6B /* Lollapalooza */,
 				CE8E3A0129E4979500318D6B /* LollapaloozaTests */,
 				CE8E3A0B29E4979500318D6B /* LollapaloozaUITests */,
@@ -107,8 +122,17 @@
 			children = (
 				CE80A1DF29E5E41300FA28B5 /* TourScreen.swift */,
 				CE80A1DD29E4A0C100FA28B5 /* Music.swift */,
+				CCCE766529E5E74700EF13C4 /* News.swift */,
+				CCCE766329E5E6E400EF13C4 /* MainScreen.swift */,
+				CCCE767029E7423700EF13C4 /* ViewAllArtists.swift */,
+				CCCE766E29E73B4C00EF13C4 /* FullNews.swift */,
+				CCCE766A29E71A6A00EF13C4 /* SearchBar.swift */,
+				CCCE766829E5E9EA00EF13C4 /* SingleNews.swift */,
+				CCCE766129E5E4E800EF13C4 /* SingleStage.swift */,
+				CCCE765F29E5E28D00EF13C4 /* Stages.swift */,
 				CE80A1DB29E4A0A800FA28B5 /* Artist.swift */,
 				CE8E39F129E4979400318D6B /* LollapaloozaApp.swift */,
+				CCCE766C29E7255B00EF13C4 /* Fillerforlaterviews.swift */,
 				CE8E39F329E4979400318D6B /* ContentView.swift */,
 				CC6675F629E5CEAB009E1E7E /* LoneArtist.swift */,
 				CE8E39F529E4979500318D6B /* Assets.xcassets */,
@@ -272,13 +296,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
+				CCCE766929E5E9EA00EF13C4 /* SingleNews.swift in Sources */,
 				CE80A1E029E5E41300FA28B5 /* TourScreen.swift in Sources */,
-				CC6675F929E5D1B5009E1E7E /* MainScreen.swift in Sources */,
 				CE80A1DC29E4A0A800FA28B5 /* Artist.swift in Sources */,
+				CCCE766429E5E6E400EF13C4 /* MainScreen.swift in Sources */,
 				CE8E39F429E4979400318D6B /* ContentView.swift in Sources */,
+				CCCE766629E5E74700EF13C4 /* News.swift in Sources */,
 				CC6675F729E5CEAB009E1E7E /* LoneArtist.swift in Sources */,
 				CE8E39F229E4979400318D6B /* LollapaloozaApp.swift in Sources */,
+				CCCE767129E7423700EF13C4 /* ViewAllArtists.swift in Sources */,
+				CCCE766029E5E28D00EF13C4 /* Stages.swift in Sources */,
+				CCCE766229E5E4E800EF13C4 /* SingleStage.swift in Sources */,
+				CCCE766B29E71A6A00EF13C4 /* SearchBar.swift in Sources */,
 				CE80A1DE29E4A0C100FA28B5 /* Music.swift in Sources */,
+				CCCE766F29E73B4C00EF13C4 /* FullNews.swift in Sources */,
+				CCCE766D29E7255B00EF13C4 /* Fillerforlaterviews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
