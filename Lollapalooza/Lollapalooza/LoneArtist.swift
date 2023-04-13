@@ -11,7 +11,7 @@ struct LoneArtist: View {
     var artist: Artist
     var body: some View {
         VStack{
-            Image(artist.ProfileImage)
+            Image("Ed1")
                 .resizable()
                 .frame(width: 100, height: 100)
                 .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
