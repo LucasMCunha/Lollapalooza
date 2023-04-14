@@ -30,46 +30,47 @@ struct TourText: View{
 struct ArtistView: View {
     var artist: Artist
     var body: some View {
-        NavigationStack{
-            VStack(alignment: .leading){
-                ZStack{
-                    Image(artist.profileImage)
-                        .resizable()
-                        .frame(width: 500, height: 300,
-                               alignment: .center)
-                        .cornerRadius(100)
-                        .offset(x: -60, y:0)
-                    
-                    
-                    if (artist.favorite == true){
-                        Image(systemName: "heart.fill")
+            NavigationStack{
+                VStack(alignment: .leading){
+                    ZStack{
+                        Image(artist.profileImage)
                             .resizable()
-                            .offset(x: 90,y:-160)
-                            .foregroundColor(.pink)
-                            .frame(width: 30, height: 30, alignment: .center)
+                            .frame(width: 500, height: 300,
+                                   alignment: .center)
+                            .cornerRadius(100)
+                            .offset(x: -60, y:0)
+                        
+                        
+                        if (artist.favorite == true){
+                            Image(systemName: "heart.fill")
+                                .resizable()
+                                .offset(x: 90,y:-160)
+                                .foregroundColor(.pink)
+                                .frame(width: 30, height: 30, alignment: .center)
+                        }
+                        else{
+                            Image(systemName: "heart")
+                                .resizable()
+                                .offset(x: 90,y:-100)
+                                .foregroundColor(.pink)
+                                .frame(width: 30, height: 30, alignment: .center)
+                        }
                     }
-                    else{
-                        Image(systemName: "heart")
-                            .resizable()
-                            .offset(x: 90,y:-100)
-                            .foregroundColor(.pink)
-                            .frame(width: 30, height: 30, alignment: .center)
-                    }
+                    Text (artist.name)
+                        .bold()
+                        .font(.title)
+                    Text (artist.description)
+                    Text("Tour")
+                        .font(.title3)
+                        .bold()
+                    Divider()
+                        .overlay(Color.black)
+                        .offset(x: -5,y:0)
+                    TourText(artist: artist)
                 }
-                Text (artist.name)
-                    .bold()
-                    .font(.title)
-                Text (artist.description)
-                Text("Tour")
-                    .font(.title3)
-                    .bold()
-                Divider()
-                    .overlay(Color.black)
-                    .offset(x: -5,y:0)
-                TourText(artist: artist)
+                .offset(x: 60,y:-70)
             }
-            .offset(x: 60,y:-70)
-        }
+
     }
 }
 
