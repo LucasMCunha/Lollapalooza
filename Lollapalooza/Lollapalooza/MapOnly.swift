@@ -41,6 +41,7 @@ struct MapOnly: View {
 			}
 			.background(CustomColor.myColor)
 			.ignoresSafeArea()
+			.toolbarBackground(.hidden, for: .navigationBar)
 
 		}
 	}
