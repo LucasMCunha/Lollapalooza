@@ -85,12 +85,7 @@ struct MainScreen: View {
 					ScrollView(.horizontal, showsIndicators: false){
 						HStack{
 							ForEach(stages, id: \.id){ stage in
-								NavigationLink{
-									Fillerforlaterviews()
-								}label:{
 									SingleStage(stage: stage)
-								}
-								.buttonStyle(.plain)
 							}
 						}
 						.padding(.horizontal)
@@ -132,7 +127,7 @@ struct MainScreen: View {
 			}
 
 		}
-
+        .toolbar(.hidden, for: .navigationBar)
 	}
 	
 }

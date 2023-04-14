@@ -26,7 +26,6 @@
 		CCCE766629E5E74700EF13C4 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766529E5E74700EF13C4 /* News.swift */; };
 		CCCE766929E5E9EA00EF13C4 /* SingleNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766829E5E9EA00EF13C4 /* SingleNews.swift */; };
 		CCCE766B29E71A6A00EF13C4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766A29E71A6A00EF13C4 /* SearchBar.swift */; };
-		CCCE766D29E7255B00EF13C4 /* Fillerforlaterviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766C29E7255B00EF13C4 /* Fillerforlaterviews.swift */; };
 		CCCE766F29E73B4C00EF13C4 /* FullNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE766E29E73B4C00EF13C4 /* FullNews.swift */; };
 		CCCE767129E7423700EF13C4 /* ViewAllArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCE767029E7423700EF13C4 /* ViewAllArtists.swift */; };
 		CE0147F429E8757B00F8BB94 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0147F329E8757B00F8BB94 /* ArtistView.swift */; };
@@ -79,7 +78,6 @@
 		CCCE766529E5E74700EF13C4 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		CCCE766829E5E9EA00EF13C4 /* SingleNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNews.swift; sourceTree = "<group>"; };
 		CCCE766A29E71A6A00EF13C4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
-		CCCE766C29E7255B00EF13C4 /* Fillerforlaterviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fillerforlaterviews.swift; sourceTree = "<group>"; };
 		CCCE766E29E73B4C00EF13C4 /* FullNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullNews.swift; sourceTree = "<group>"; };
 		CCCE767029E7423700EF13C4 /* ViewAllArtists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllArtists.swift; sourceTree = "<group>"; };
 		CE0147F329E8757B00F8BB94 /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
@@ -176,7 +174,6 @@
 				CCCE765F29E5E28D00EF13C4 /* Stages.swift */,
 				CE80A1DB29E4A0A800FA28B5 /* Artist.swift */,
 				CE8E39F129E4979400318D6B /* LollapaloozaApp.swift */,
-				CCCE766C29E7255B00EF13C4 /* Fillerforlaterviews.swift */,
 				CE8E39F329E4979400318D6B /* ContentView.swift */,
 				CC6675F629E5CEAB009E1E7E /* LoneArtist.swift */,
 				544DDB1429E8DFBF009A9DE3 /* LoneArtistHorizontal.swift */,
@@ -370,7 +367,6 @@
 				CE80A1DE29E4A0C100FA28B5 /* Music.swift in Sources */,
 				CCCE766F29E73B4C00EF13C4 /* FullNews.swift in Sources */,
 				544DDB1929E90410009A9DE3 /* Onboarding3.swift in Sources */,
-				CCCE766D29E7255B00EF13C4 /* Fillerforlaterviews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
