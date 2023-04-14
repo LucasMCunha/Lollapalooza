@@ -15,17 +15,23 @@ struct MainScreen: View {
 			ZStack{
 				VStack{
 					HStack{
-						Text("Welcome!")
-							.bold()
-							.font(.title)
+							Text("Welcome to")
+								.bold()
+								.font(.title)
+							
 						//MARK: fazer a tela de login dps pq eu não tenho a menor ideia de como fazer isso aqui
-						Spacer()
+//						Spacer()
 						//cículo para colocar a parte de login aqui
-						Image(systemName: "person.circle")
+////						Image(systemName: "person.circle")
+//							.resizable()
+//							.frame(width: 30, height: 30)
+						Image("LollapaloozaLogo")
 							.resizable()
-							.frame(width: 30, height: 30)
+							.scaledToFit()
+						
+						Spacer()
 					}
-					//.padding(.top, 40)
+					//.padding(.bottom, 40)
 					.padding(.leading)
 					.padding(.trailing)
 					//.padding(.vertical, 20)
@@ -53,7 +59,7 @@ struct MainScreen: View {
 							ForEach(Artists, id: \.id){artist in
 								//aqui, chama a próxima função que depende do artista pra ir
 								NavigationLink{
-									Fillerforlaterviews()
+									ArtistView(artist: artist)
 								}label:{
 									VStack{
 										LoneArtist(artist: artist)
@@ -62,6 +68,7 @@ struct MainScreen: View {
 								}
 								.buttonStyle(.plain)
 							}
+							.padding(.horizontal, -20)
 						}
 					}
 					//Spacer()
@@ -87,7 +94,7 @@ struct MainScreen: View {
 							}
 						}
 						.padding(.horizontal)
-
+						
 					}
 					
 					//scroll da terceira: as notícias
@@ -113,20 +120,52 @@ struct MainScreen: View {
 							}
 							.padding(.leading)
 						}
+						
 					}
 					
 					
 				}
 				
-				let firstscreen: Int = 1
-				SearchBar(choice: firstscreen)
+				//				let firstscreen: Int = 1
+				//				SearchBar(choice: firstscreen)
+				
 			}
+
 		}
-    }
+
+	}
+	
 }
 
 struct MainScreen_Previews: PreviewProvider {
     static var previews: some View {
         MainScreen()
     }
+}
+
+//house.fill"
+//"person.fill"
+//"calendar"
+//"map.fill"
+
+struct TabBar: View {
+	var body: some View {
+		TabView {
+			MainScreen()
+			.tabItem {
+				Label("Home", systemImage: "house.fill")
+			}
+			
+			ScheduleView()
+				.tabItem {
+					Label("Schedule", systemImage: "calendar")
+				}
+			
+			MapView()
+			.tabItem {
+				Label("Map", systemImage: "map.fill")
+				
+			}
+		}
+	}
 }

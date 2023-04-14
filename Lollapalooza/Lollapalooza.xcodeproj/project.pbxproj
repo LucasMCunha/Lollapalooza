@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544DDB1529E8DFBF009A9DE3 /* LoneArtistHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544DDB1429E8DFBF009A9DE3 /* LoneArtistHorizontal.swift */; };
+		544DDB1729E903E5009A9DE3 /* Onboarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544DDB1629E903E5009A9DE3 /* Onboarding2.swift */; };
+		544DDB1929E90410009A9DE3 /* Onboarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544DDB1829E90410009A9DE3 /* Onboarding3.swift */; };
+		544DDB1B29E90601009A9DE3 /* Onboarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544DDB1A29E90601009A9DE3 /* Onboarding1.swift */; };
 		54D9722929E86B4E0070B6B8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D9722829E86B4E0070B6B8 /* MapView.swift */; };
 		54D9722B29E86B680070B6B8 /* MapOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D9722A29E86B680070B6B8 /* MapOnly.swift */; };
 		A797668829E5F7F600160BE2 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797668729E5F7F600160BE2 /* ScheduleView.swift */; };
@@ -56,6 +60,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		544DDB1429E8DFBF009A9DE3 /* LoneArtistHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoneArtistHorizontal.swift; sourceTree = "<group>"; };
+		544DDB1629E903E5009A9DE3 /* Onboarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding2.swift; sourceTree = "<group>"; };
+		544DDB1829E90410009A9DE3 /* Onboarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding3.swift; sourceTree = "<group>"; };
+		544DDB1A29E90601009A9DE3 /* Onboarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1.swift; sourceTree = "<group>"; };
 		54D9722829E86B4E0070B6B8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		54D9722A29E86B680070B6B8 /* MapOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOnly.swift; sourceTree = "<group>"; };
 		A797668729E5F7F600160BE2 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
@@ -160,6 +168,9 @@
 				CCCE767029E7423700EF13C4 /* ViewAllArtists.swift */,
 				CCCE766E29E73B4C00EF13C4 /* FullNews.swift */,
 				CCCE766A29E71A6A00EF13C4 /* SearchBar.swift */,
+				544DDB1629E903E5009A9DE3 /* Onboarding2.swift */,
+				544DDB1A29E90601009A9DE3 /* Onboarding1.swift */,
+				544DDB1829E90410009A9DE3 /* Onboarding3.swift */,
 				CCCE766829E5E9EA00EF13C4 /* SingleNews.swift */,
 				CCCE766129E5E4E800EF13C4 /* SingleStage.swift */,
 				CCCE765F29E5E28D00EF13C4 /* Stages.swift */,
@@ -168,6 +179,7 @@
 				CCCE766C29E7255B00EF13C4 /* Fillerforlaterviews.swift */,
 				CE8E39F329E4979400318D6B /* ContentView.swift */,
 				CC6675F629E5CEAB009E1E7E /* LoneArtist.swift */,
+				544DDB1429E8DFBF009A9DE3 /* LoneArtistHorizontal.swift */,
 				CE8E39F529E4979500318D6B /* Assets.xcassets */,
 				54D9722829E86B4E0070B6B8 /* MapView.swift */,
 				54D9722A29E86B680070B6B8 /* MapOnly.swift */,
@@ -336,6 +348,7 @@
 				CE80A1E029E5E41300FA28B5 /* TourView.swift in Sources */,
 				CE80A1DC29E4A0A800FA28B5 /* Artist.swift in Sources */,
 				A7DD2AD629E8D63E0083D6DA /* ScheduleData.swift in Sources */,
+				544DDB1B29E90601009A9DE3 /* Onboarding1.swift in Sources */,
 				CCCE766429E5E6E400EF13C4 /* MainScreen.swift in Sources */,
 				CE8E39F429E4979400318D6B /* ContentView.swift in Sources */,
 				A797668829E5F7F600160BE2 /* ScheduleView.swift in Sources */,
@@ -343,6 +356,8 @@
 				A7DD2AD029E8C18D0083D6DA /* DayView.swift in Sources */,
 				CCCE766629E5E74700EF13C4 /* News.swift in Sources */,
 				A7DD2AD229E8C57F0083D6DA /* StageView.swift in Sources */,
+				544DDB1529E8DFBF009A9DE3 /* LoneArtistHorizontal.swift in Sources */,
+				544DDB1729E903E5009A9DE3 /* Onboarding2.swift in Sources */,
 				CC6675F729E5CEAB009E1E7E /* LoneArtist.swift in Sources */,
 				54D9722B29E86B680070B6B8 /* MapOnly.swift in Sources */,
 				CE8E39F229E4979400318D6B /* LollapaloozaApp.swift in Sources */,
@@ -354,6 +369,7 @@
 				CCCE766B29E71A6A00EF13C4 /* SearchBar.swift in Sources */,
 				CE80A1DE29E4A0C100FA28B5 /* Music.swift in Sources */,
 				CCCE766F29E73B4C00EF13C4 /* FullNews.swift in Sources */,
+				544DDB1929E90410009A9DE3 /* Onboarding3.swift in Sources */,
 				CCCE766D29E7255B00EF13C4 /* Fillerforlaterviews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

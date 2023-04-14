@@ -15,9 +15,10 @@ struct SingleStage: View {
                 .resizable()
                 .cornerRadius(16)
                 //.aspectRatio(contentMode: .fit)
-                .frame(width: 200, height: 120)
+                .frame(width: 160, height: 120)
             Text(stage.name)
                 .bold()
+				.font(.caption)
             
         }
     }

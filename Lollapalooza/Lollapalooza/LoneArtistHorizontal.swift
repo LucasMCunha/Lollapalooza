@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct LoneArtist: View {
+struct LoneArtistHorizontal: View {
 	var artist: Artist
 	var body: some View {
-		VStack{
+		HStack{
 			ZStack{
 				Color(.white)
 				Image(artist.profileImage)
@@ -31,17 +31,19 @@ struct LoneArtist: View {
 			
 			Text(artist.name)
 				.bold()
-				.frame(width: 160, alignment: .center)
+				.frame(width: 160, alignment: .leading)
 				.lineLimit(1)
 				.font(.caption)
+			
+			Spacer()
 		}
 		
 	}
 }
 
 
-struct LoneArtist_Previews: PreviewProvider {
+struct LoneArtistHorizontal_Previews: PreviewProvider {
 	static var previews: some View {
-		LoneArtist(artist: Artists[0])
+		LoneArtistHorizontal(artist: Artists[0])
 	}
 }
