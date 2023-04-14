@@ -78,7 +78,6 @@ struct TourView: View {
             }
         }
         .offset(x: 60,y:-60)
-        .toolbar(.hidden, for: .navigationBar)
     }
 }
 
